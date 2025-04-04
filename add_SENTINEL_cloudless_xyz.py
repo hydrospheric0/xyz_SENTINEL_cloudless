@@ -1,5 +1,5 @@
 """
-Hardcoded Sentinel-2 Cloudless XYZ Layers
+Sentinel-2 Cloudless XYZ Layers
 Adds each layer to the QGIS Browser Panel (XYZ Tiles)
 """
 
@@ -32,6 +32,6 @@ for url in sentinel_urls:
 
 # Refresh QGIS browser
 iface.reloadConnections()
-print("🎉 All SENTINEL layers have been added to the XYZ Tiles panel.")
+print("All SENTINEL layers have been added to the XYZ Tiles panel.")
 
 
